@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fernad's Site</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="sidebar-top">
+      <span class="shrink-btn">
+        <i class='bx bx-chevron-left'></i>
+      </span>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Simbolo_engenharia.svg/1200px-Simbolo_engenharia.svg.png" class="logo" alt="">
+      <h3 class="hide">Fernand's</h3>
+    </div>
+    <br>
+    <div class="sidebar-links">
+      <ul>
+        <div class="active-tab"></div>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="./imc/index.html" class="active" data-active="0">
+            <div class="icon">
+              <i class='bx bx-tachometer'></i>
+              <i class='bx bxs-tachometer'></i>
+            </div>
+            <span class="link hide">Calcule seu IMC</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="./numeros magicos/magic.html" data-active="1">
+            <div class="icon">
+              <i class='bx bx-folder'></i>
+              <i class='bx bxs-folder'></i>
+            </div>
+            <span class="link hide">Números Mágicos</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="./covid/covid.html" data-active="2">
+            <div class="icon">
+              <i class='bx bx-message-square-detail'></i>
+              <i class='bx bxs-message-square-detail'></i>
+            </div>
+            <span class="link hide">Informações sobre o covid</span>
+          </a>
+        </li>
+      </ul>
+
+    <div class="sidebar-footer">
+      <a href="#" class="account tooltip-element" data-tooltip="0">
+        <i class='bx bx-user'></i>
+      </a>
+      <div class="admin-user tooltip-element" data-tooltip="1">
+        <div class="admin-profile hide">
+          <img src="dono.png" alt="foto_criador">
+          <div class="admin-info">
+            <h3>Fernando</h3>
+            <h3>Jefferson</h3>
+            <h5>Criador</h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+    <h1>Trabalho banco de dados</h1>
+    <p class="text">
+      Olá, seja muito bem vindo ao meu site. <br>
+      Esse site foi criado por conta do trabalho de Desenvolvimento Web I.
+    </p>
+    <h1>Funcionalidades:</h1>
+    <p class="topic"><b>Calculadora de IMC</b></p>
+    <P>Nela você pode calcular seu IMC e ver se você está magrin ou godrin.</P>
+    <br>
+    <p class="topic"><b>Números mágicos</b></p>
+    <p>Serve para você gerar uma tabela com os números pares ou impares até o número que você irá digitar.</p>
+    <br>
+    <p class="topic"><b>Informações sobre o covid</b></p>
+    <p>Aqui você pode obter inforamções sobre a covid-19 e metodos de como se prevenir e outras coisas</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
